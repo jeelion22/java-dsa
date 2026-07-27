@@ -1,0 +1,87 @@
+# ===========================================
+# Java
+# ===========================================
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# ===========================================
+# Eclipse
+# ===========================================
+
+# Build output
+/bin/
+
+# Eclipse launch configurations
+*.launch
+
+# Local Eclipse metadata (workspace-specific)
+.metadata/
+
+# External tool builders
+.externalToolBuilders/
+
+# Local history
+.history/
+
+# ===========================================
+# Maven
+# ===========================================
+
+/target/
+
+# ===========================================
+# Gradle
+# ===========================================
+
+.gradle/
+build/
+
+# ===========================================
+# IntelliJ IDEA
+# ===========================================
+
+.idea/
+*.iml
+
+# ===========================================
+# Visual Studio Code
+# ===========================================
+
+.vscode/
+
+# ===========================================
+# Operating System Files
+# ===========================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ===========================================
+# Temporary Files
+# ===========================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
