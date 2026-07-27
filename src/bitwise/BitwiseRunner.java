@@ -14,6 +14,10 @@ public class BitwiseRunner {
 		int oddOcurrence = bitwiseOp.getOddOccurrence(arr); 
 		
 		System.out.println(oddOcurrence);
+		
+		System.out.println(bitwiseOp.isPowerOfTwo(4));
+		System.out.println(bitwiseOp.isPowerOfTwo(18));
+		System.out.println(bitwiseOp.isPowerOfTwo(32));
 
 	}
 
