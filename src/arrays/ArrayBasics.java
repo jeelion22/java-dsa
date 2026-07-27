@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.*;
+
 public class ArrayBasics {
 	
 	public void printArray(int[] arr) {
@@ -34,5 +36,44 @@ public class ArrayBasics {
 		
 		return sum;
 	}
+	
+	
+// find odd occurrence number in an array
+	
+	public int getOddOccurrence(ArrayList<Integer> arr, int n) {
+		
+		
+		for (int i = 0; i < n; i++) {
+			int count = 0 ;
+			
+			for (int j = 0; j < n; j++) {
+				if (arr.get(i).equals(arr.get(j))) {
+					count++;
+				}
+			}
+			
+			if (count % 2 !=0) {
+				return arr.get(i);
+			}
+		}
+		
+		return -1;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
